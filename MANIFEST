@@ -3,4 +3,6 @@ setup.cfg
 setup.py
 lazerpay/__init__.py
 lazerpay/resource.py
+lazerpay/utils/__init__.py
+lazerpay/utils/constants.py
 test/test_transactions.py

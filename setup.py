@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
   name = 'lazerpay-python-sdk',         # How you named your package folder (MyLib)
-  packages = ['lazerpay'],   # Chose the same as "name"
+  packages = ['lazerpay','lazerpay.utils'],   # Chose the same as "name"
   version = '0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'API Wrapper for LazerPay',   # Give a short description about your library
