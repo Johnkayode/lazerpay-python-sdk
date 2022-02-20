@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'lazerpay-python-sdk',         # How you named your package folder (MyLib)
   packages = ['lazerpay','lazerpay.utils'],   # Chose the same as "name"
-  version = '0.1',      # Start with a small number and increase it with every change you make
+  version = '0.2',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'API Wrapper for LazerPay',   # Give a short description about your library
   author = 'John Shodipo',                   # Type in your name
   author_email = 'newtonjohn043@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/johnkayode/lazerpay-python-sdk',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/Johnkayode/lazerpay-python-sdk/archive/refs/tags/v_01.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/Johnkayode/lazerpay-python-sdk/archive/refs/tags/v_02.zip',    # I explain this later on
   keywords = ['lazerpay', 'python', 'crypto'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'requests',
